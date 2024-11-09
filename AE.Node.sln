@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AE.Node", "AE.Node\AE.Node.csproj", "{3AE8C5D2-4763-4C45-9AFF-2868A9507B75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AE.Node", "AE.Node\AE.Node.csproj", "{3AE8C5D2-4763-4C45-9AFF-2868A9507B75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AE.Node.Controls", "AE.Node.Controls\AE.Node.Controls.csproj", "{441C9161-A5A9-40B1-B4FB-C9156CF0E5A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AE.Node.Controls", "AE.Node.Controls\AE.Node.Controls.csproj", "{441C9161-A5A9-40B1-B4FB-C9156CF0E5A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AE.Note.Example", "AE.Note.Example\AE.Note.Example.csproj", "{81BEDFFB-8AF9-476F-8577-F716049D2BF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{04C25B3E-C1D2-4159-80D0-0020F367B66C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,10 @@ Global
 		{441C9161-A5A9-40B1-B4FB-C9156CF0E5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441C9161-A5A9-40B1-B4FB-C9156CF0E5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{441C9161-A5A9-40B1-B4FB-C9156CF0E5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81BEDFFB-8AF9-476F-8577-F716049D2BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81BEDFFB-8AF9-476F-8577-F716049D2BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81BEDFFB-8AF9-476F-8577-F716049D2BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81BEDFFB-8AF9-476F-8577-F716049D2BF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
